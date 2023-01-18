@@ -1,0 +1,17 @@
+name: roaddiet 
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - geopandas
+  - black
+  - sqlalchemy
+  - psycopg2
+  - openpyxl
+  - ipykernel
+  - geoalchemy2
+  - python-dotenv
+  - pip
+  - pip:
+      - git+https://github.com/mmorley0395/pg-data-etl
+prefix: /home/mmorley0395/miniconda3/envs/mercer
